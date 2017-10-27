@@ -15,6 +15,8 @@
 		F3F68FF91FA1CFE100D0615B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F68FF71FA1CFE100D0615B /* LaunchScreen.storyboard */; };
 		F3F690041FA1CFE100D0615B /* NewCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F690031FA1CFE100D0615B /* NewCollectionTests.m */; };
 		F3F6900F1FA1CFE100D0615B /* NewCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F6900E1FA1CFE100D0615B /* NewCollectionUITests.m */; };
+		F3F6901E1FA1D80C00D0615B /* LSNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F6901D1FA1D80C00D0615B /* LSNumberCell.m */; };
+		F3F690241FA1E56F00D0615B /* LSLotteryLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F690231FA1E56F00D0615B /* LSLotteryLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		F3F6900A1FA1CFE100D0615B /* NewCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F6900E1FA1CFE100D0615B /* NewCollectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewCollectionUITests.m; sourceTree = "<group>"; };
 		F3F690101FA1CFE100D0615B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F6901C1FA1D80C00D0615B /* LSNumberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSNumberCell.h; sourceTree = "<group>"; };
+		F3F6901D1FA1D80C00D0615B /* LSNumberCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSNumberCell.m; sourceTree = "<group>"; };
+		F3F690221FA1E56F00D0615B /* LSLotteryLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLotteryLayout.h; sourceTree = "<group>"; };
+		F3F690231FA1E56F00D0615B /* LSLotteryLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLotteryLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				F3F68FED1FA1CFE100D0615B /* AppDelegate.m */,
 				F3F68FEF1FA1CFE100D0615B /* ViewController.h */,
 				F3F68FF01FA1CFE100D0615B /* ViewController.m */,
+				F3F690221FA1E56F00D0615B /* LSLotteryLayout.h */,
+				F3F690231FA1E56F00D0615B /* LSLotteryLayout.m */,
+				F3F6901C1FA1D80C00D0615B /* LSNumberCell.h */,
+				F3F6901D1FA1D80C00D0615B /* LSNumberCell.m */,
 				F3F68FF21FA1CFE100D0615B /* Main.storyboard */,
 				F3F68FF51FA1CFE100D0615B /* Assets.xcassets */,
 				F3F68FF71FA1CFE100D0615B /* LaunchScreen.storyboard */,
@@ -274,8 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3F68FF11FA1CFE100D0615B /* ViewController.m in Sources */,
+				F3F6901E1FA1D80C00D0615B /* LSNumberCell.m in Sources */,
 				F3F68FEE1FA1CFE100D0615B /* AppDelegate.m in Sources */,
 				F3F68FEB1FA1CFE100D0615B /* main.m in Sources */,
+				F3F690241FA1E56F00D0615B /* LSLotteryLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +521,7 @@
 				F3F690151FA1CFE100D0615B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3F690161FA1CFE100D0615B /* Build configuration list for PBXNativeTarget "NewCollectionTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +530,7 @@
 				F3F690181FA1CFE100D0615B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3F690191FA1CFE100D0615B /* Build configuration list for PBXNativeTarget "NewCollectionUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +539,7 @@
 				F3F6901B1FA1CFE100D0615B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

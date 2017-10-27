@@ -12,4 +12,7 @@
 
 @property (nonatomic, strong) UILabel *lblText;
 
+//记得在这里更新内部布局frame呀呀
+- (void)updateText:(NSString *)text;
+
 @end

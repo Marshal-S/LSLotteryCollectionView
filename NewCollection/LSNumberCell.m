@@ -13,15 +13,18 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         self.contentView.backgroundColor = [UIColor redColor];
-        _lblText = [[UILabel alloc] initWithFrame:self.bounds];
+        _lblText = [[UILabel alloc] init];
         _lblText.textColor = [UIColor whiteColor];
         _lblText.textAlignment = NSTextAlignmentCenter;
         [self.contentView addSubview:_lblText];
-//        self.contentView.layer.cornerRadius = 40;
-//        _lblText.layer.cornerRadius = 40;
     }
     return self;
 }
 
+//记得在这里更新内部布局frame呀呀
+- (void)updateText:(NSString *)text {
+    _lblText.frame = self.bounds;
+    _lblText.text = text;
+}
 
 @end

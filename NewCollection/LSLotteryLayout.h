@@ -1,5 +1,5 @@
 //
-//  QYLLotteryLayout.h
+//  LSLotteryLayout.h
 //  NewCollection
 //
 //  Created by Marshal on 2017/10/26.
@@ -10,7 +10,7 @@
 
 @class LSLotteryLayout;
 
-@protocol QYLLotteryLayoutDelegate <NSObject>
+@protocol LSLotteryLayoutDelegate <NSObject>
 
 @required
 
@@ -23,7 +23,7 @@
 
 @interface LSLotteryLayout : UICollectionViewLayout
 
-@property (nonatomic, weak) id<QYLLotteryLayoutDelegate> delegate;
+@property (nonatomic, weak) id<LSLotteryLayoutDelegate> delegate;
 
 @property (nonatomic, assign) CGFloat columnMargin;//列间距,即cell与cell之间的横向距离,默认为10
 

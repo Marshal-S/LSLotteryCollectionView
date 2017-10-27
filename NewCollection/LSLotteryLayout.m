@@ -1,5 +1,5 @@
 //
-//  QYLLotteryLayout.m
+//  LSLotteryLayout.m
 //  NewCollection
 //
 //  Created by Marshal on 2017/10/26.
