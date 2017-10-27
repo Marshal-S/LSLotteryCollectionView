@@ -1,1 +1,3 @@
 # LSLotteryCollectionView
+使用的时候直接仿照demo，把LSLotteryLayout中的两个文件拖到自己的项目中去，按照demo的例子使用即可
+使用的时候记得更新内部布局呀
